@@ -1,0 +1,33 @@
+{
+  "name": "project-njks-template",
+  "version": "1.0.0",
+  "description": "Create project templates using nunjucks template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './{,!(node_modules)/**}/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migalons/project-njks-template.git"
+  },
+  "keywords": [
+    "project",
+    "template",
+    "nunjucks",
+    "njk"
+  ],
+  "author": "migalons74@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/migalons/project-njks-template/issues"
+  },
+  "homepage": "https://github.com/migalons/project-njks-template#readme",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "mocha": "^5.2.0"
+  }
+}
